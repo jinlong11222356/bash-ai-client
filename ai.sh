@@ -1,7 +1,7 @@
 #!/bin/bash
 
-AI_CONFIG='~/.config/ai/config.json'
-CONTEXT_FILE='~/.local/share/ai/context.json'
+AI_CONFIG=~/.config/ai/config.json
+CONTEXT_FILE=~/.local/share/ai/context.json
 
 #INIT--------------------------------------------------------------------
 
