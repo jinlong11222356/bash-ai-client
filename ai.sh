@@ -57,11 +57,7 @@ getRequestPayload(){
 }
 
 #ACTION---------------------------------------------------------------------------------
-MEMORY=""
-if [[ -n "$CONTEXT_FILE" && -f "$CONTEXT_FILE" ]]
-then
-  MEMORY="enabled"
-fi
+MEMORY="enabled"
 
 CONTEXT=$(get_context)
 
