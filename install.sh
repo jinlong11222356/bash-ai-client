@@ -20,5 +20,5 @@ curl -fsSL https://raw.githubusercontent.com/jinlong11222356/bash-ai-client/refs
 chmod +x $SH_LOC
 FORGET_LOC=~/.local/bin/forget
 touch $FORGET_LOC
-chmod +x $FORGET_LOC
 echo "echo '' > ~/.local/share/ai/context.json" > $FORGET_LOC
+chmod +x $FORGET_LOC
