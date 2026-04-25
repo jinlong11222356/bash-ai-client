@@ -10,7 +10,6 @@ CONFIG=$(jq '.' "$AI_CONFIG")
 ENDPOINT=$(jq -r ".endpoint" <<< "$CONFIG")
 KEY=$(jq -r ".key" <<< "$CONFIG")
 MODEL=$(jq -r ".model" <<< "$CONFIG")
-CONTEXT_FILE=$(jq -r ".context_file" <<< "$CONFIG")
 PERSONA=$(jq -r ".persona" <<< "$CONFIG")
 
 #API----------------------------------------------------------------------
