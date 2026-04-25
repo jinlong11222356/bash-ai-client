@@ -21,4 +21,4 @@ chmod +x $SH_LOC
 FORGET_LOC=~/.local/bin/forget
 touch $FORGET_LOC
 chmod +x $FORGET_LOC
-echo "echo '' > $FORGET_LOC"
+echo "echo '' > ~/.local/share/ai/context.json" > $FORGET_LOC
