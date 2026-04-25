@@ -14,7 +14,11 @@ cat <<EOF > ~/.config/ai/config.json
 }
 EOF
 
-BINARY_LOC=~/.local/bin/ai
-touch $BINARY_LOC
-curl -fsSL https://raw.githubusercontent.com/jinlong11222356/bash-ai-client/refs/heads/main/ai.sh > $BINARY_LOC
-chmod +x $BINARY_LOC
+SH_LOC=~/.local/bin/ai
+touch $SH_LOC
+curl -fsSL https://raw.githubusercontent.com/jinlong11222356/bash-ai-client/refs/heads/main/ai.sh > $SH_LOC
+chmod +x $SH_LOC
+FORGET_LOC=~/.local/bin/forget
+touch $FORGET_LOC
+chmod $FORGET_LOC
+echo "echo '' > $FORGET_LOC"
